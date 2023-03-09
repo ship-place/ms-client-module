@@ -1,0 +1,1 @@
+# MsClientModule for Ship.Place
