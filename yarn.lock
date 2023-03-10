@@ -84,6 +84,10 @@
   version "0.0.4"
   resolved "https://codeload.github.com/ship-place/reqresex/tar.gz/cd3f0781c5610f72710670e8a70514a0f6fdcbd1"
 
+"@ship-place/types@ship-place/types":
+  version "0.0.1"
+  resolved "https://codeload.github.com/ship-place/types/tar.gz/191d48490bf86e921df1390bab258aed06dc635f"
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"

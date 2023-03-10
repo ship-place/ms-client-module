@@ -1,6 +1,6 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import { ClientsModule, Transport } from '@nestjs/microservices';
-import { defaultMsClientOptions, MsClientOptions } from './@types/options.interface';
+import { defaultMsClientOptions, MsClientOptions } from './options.interface';
 import { MsClientService } from './ms-client.service';
 
 @Module({})

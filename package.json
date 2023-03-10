@@ -1,6 +1,6 @@
 {
   "name": "@ship-place/ms-client-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MsClientModule for Ship.Place",
   "main": "lib/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ship-place/ms-client-module#readme",
   "devDependencies": {
+    "@ship-place/types": "ship-place/types",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.34.0",

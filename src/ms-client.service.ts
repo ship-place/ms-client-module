@@ -2,7 +2,7 @@ import { Inject, Injectable, Logger } from '@nestjs/common';
 import { ClientKafka } from '@nestjs/microservices';
 import { IMsMessage, MsMessageStatus, RpcHttpException } from '@ship-place/reqresex';
 import { lastValueFrom, timeout } from 'rxjs';
-import { MsClientOptions } from './@types/options.interface';
+import { MsClientOptions } from './options.interface';
 
 @Injectable()
 export class MsClientService {

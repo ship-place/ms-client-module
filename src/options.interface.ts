@@ -1,4 +1,4 @@
-import { Pattern } from './pattern.type';
+import { Pattern } from '@ship-place/types/backend';
 
 export interface MsClientOptions {
   patterns: Pattern;
