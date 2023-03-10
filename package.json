@@ -1,0 +1,48 @@
+{
+  "name": "@ship-place/ms-client-module",
+  "version": "0.0.1",
+  "description": "MsClientModule for Ship.Place",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "exit 0",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint . --ext .ts",
+    "prepare": "exit 0",
+    "prepublishOnly": "yarn test && yarn lint",
+    "preversion": "yarn lint",
+    "version": "yarn format && yarn tsc && git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ship-place/ms-client-module.git"
+  },
+  "author": "LexxXell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ship-place/ms-client-module/issues"
+  },
+  "homepage": "https://github.com/ship-place/ms-client-module#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/microservices": "^9.0.7",
+    "@ship-place/reqresex": "ship-place/reqresex",
+    "kafkajs": "^2.2.4",
+    "rxjs": "^7.8.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=8.0.0",
+    "@nestjs/microservices": ">=9.0.7",
+    "rxjs": ">=7.8.0"
+  }
+}
