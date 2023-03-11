@@ -29,6 +29,6 @@ export class MsClientService {
     if (!res || !res.status) throw new RpcHttpException(`[MS-CLIENT] Something wrong: ${this.options.service_name}`);
     if (res.status !== MsMessageStatus.SUCCESS)
       throw new RpcHttpException(res.error || `[MS-CLIENT] Bad response from ${this.options.service_name}`);
-    return res.data;
+    return res;
   }
 }
