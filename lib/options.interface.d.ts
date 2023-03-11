@@ -1,4 +1,4 @@
-import { Pattern } from '@ship-place/types/backend';
+import { Pattern } from './pattern.interface';
 export interface MsClientOptions {
     patterns: Pattern;
     timeout: number;

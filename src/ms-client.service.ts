@@ -1,4 +1,4 @@
-import { Inject, Injectable, Logger } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { ClientKafka } from '@nestjs/microservices';
 import { IMsMessage, MsMessageStatus, RpcHttpException } from '@ship-place/reqresex';
 import { lastValueFrom, timeout } from 'rxjs';
